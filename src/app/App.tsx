@@ -24,6 +24,7 @@ import {
   Menu,
   MessageCircle,
   Navigation,
+  Play,
   ShieldCheck,
   Sparkles,
   Sun,
@@ -137,24 +138,24 @@ const routes = [
 
 const gallery = [
   {
-    src: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1400&h=1000&fit=crop&auto=format",
+    src: "https://res.cloudinary.com/dwkdclfwe/image/upload/v1793121344/Gemini_Generated_Image_buys73buys73buys_npustd.jpg",
     alt: "Paisaje de río y monte",
     label: "Bermejo",
   },
   {
-    src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1000&h=1200&fit=crop&auto=format",
+    src: "https://res.cloudinary.com/dwkdclfwe/image/upload/v1793122581/WhatsApp_Image_2026-10-27_at_14.30.22_gxzuay.jpg",
     alt: "Naturaleza ribereña",
-    label: "La Perla del Sur",
+    label: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1000&h=1000&fit=crop&auto=format",
+    src: "https://res.cloudinary.com/dwkdclfwe/image/upload/v1793122585/WhatsApp_Image_2026-10-27_at_14.33.29_m7dstp.jpg",
     alt: "Experiencias junto al agua",
-    label: "Verano",
+    label: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1000&h=1000&fit=crop&auto=format",
+    src: "https://res.cloudinary.com/dwkdclfwe/image/upload/v1793122587/WhatsApp_Image_2026-10-27_at_14.33.41_z2wvpg.jpg",
     alt: "Flora regional",
-    label: "Monte vivo",
+    label: "",
   },
 ];
 
@@ -317,6 +318,14 @@ export default function App() {
                 Un destino a orillas del Bermejo donde el agua, el monte y la cultura viva invitan a quedarse un poco más.
               </p>
               <div className="flex flex-wrap gap-3 md:col-span-5 md:justify-end">
+                <a
+                  href="https://www.youtube.com/shorts/3RValTe-nho"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full border border-white/40 bg-white/10 px-6 py-3.5 font-semibold text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white hover:text-[#163c32]"
+                >
+                  <Play className="size-4 fill-current" /> Video
+                </a>
                 <button
                   onClick={() => scrollTo("atractivos")}
                   className="inline-flex items-center gap-3 rounded-full bg-[#c85535] px-6 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#b2472d]"

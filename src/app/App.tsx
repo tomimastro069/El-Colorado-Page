@@ -140,7 +140,7 @@ const gallery = [
   {
     src: "https://res.cloudinary.com/dwkdclfwe/image/upload/v1793121344/Gemini_Generated_Image_buys73buys73buys_npustd.jpg",
     alt: "Paisaje de río y monte",
-    label: "Bermejo",
+    label: "Rio",
   },
   {
     src: "https://res.cloudinary.com/dwkdclfwe/image/upload/v1793122581/WhatsApp_Image_2026-10-27_at_14.30.22_gxzuay.jpg",

@@ -56,7 +56,7 @@ const attractions = [
   },
   {
     number: "02",
-    title: "Camping La Perla del Sur",
+    title: "Camping Municipal",
     copy: "Acceso libre, parrillas, quinchos, sanitarios, Wi-Fi, bungalows y un sector preparado para casas rodantes.",
     tag: "Dormir junto al río",
     icon: TentTree,
